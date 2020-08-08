@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "type": "mssql",
+      "suggestion": "true",
+      "ignored": "true"
+    },
+    "storage1": {
+      "type": "storage",
+      "suggestion": "true",
+      "ignored": "true"
+    },
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroup')]/providers/Microsoft.KeyVault/vaults/MySecreatVault",
+      "type": "secrets.keyVault",
+      "connectionId": "ASPNETCORE_HOSTINGSTARTUP__KEYVAULT__CONFIGURATIONVAULT",
+      "secretStore": null
+    }
+  }
+}
